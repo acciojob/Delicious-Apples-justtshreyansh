@@ -1,1 +1,184 @@
 /* your code here */
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	
+}
+body{
+	background-color:#98FB98;
+	
+	
+}
+.apple{
+	width:75%
+}
+.product{
+	
+	margin-top:50px;
+	display:flex;
+	justify-content:space-between;
+	
+}
+.product__info{
+	background-color:white;
+	border:none;
+	margin:0 300px;
+	display:flex;
+	flex-direction:column;
+	gap:30px;
+	padding:20px;
+	width:58%;
+	
+	
+}
+.title h1{
+	font-size:20px;
+	font-weight:800;
+	margin:3px 0px;
+}
+.title span{
+	font-size:10px;
+	color:gray;
+}
+.price{
+	color:red;
+	font-size:15px;
+}
+.price span{
+	font-size:25px;
+}
+.variant h3{
+	font-size:10px;
+	font-weight:500;
+	color:gray;
+}
+.variant ul{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	list-style-type:none;
+	
+	
+}
+.variant{
+	width:100%;
+	border:none;
+	
+	
+}
+.goal{
+	
+	border-radius:50%;
+}
+.product__photo{
+	background-color:lightgreen;
+	/* display:none; */
+	height:100%;
+	width:42%;
+	position:absolute;
+	left:50px;
+	
+	
+}
+.photo-container{
+	display:flex;
+	flex-direction:column;
+	
+	gap:10px;
+}
+.controls{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	margin:10px;
+	padding:10px;
+	color:white;
+}
+.photo-album{
+	background-color:white;
+	padding:20px;
+	width:100%;
+}
+.photo-container .photo-album ul{
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+	align-items:center;
+	list-style-type:none;
+}
+.photo-container .photo-album ul li{
+	width:30%;
+	height:25%;
+	border:0.5px solid gray;
+	padding:0px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	border-collapse:collapse;
+}
+/* .desciption{
+	width:100%;
+	display:flex;
+	gap:10px;
+	flex-direction:column;
+}
+.description li {
+	width:100%;
+	border:none;
+	display:flex;
+	flex-direcion:column;
+	align-items:center;
+	justify-content:center;
+	
+	
+	
+	
+}*/
+
+.description ul li{
+	border:none;
+	text-align:left;
+	
+} 
+.description {
+  display: flex;
+  flex-direction: column;
+	justify-content:left;
+	
+	
+  gap: 20px;
+}
+
+.description .list {
+  list-style-type: disc;
+  padding-left: 20px;
+	display:flex;
+	flex-direction:column;
+	width:100%;
+	hieght:100%;
+	text-align:left;
+}
+
+.description .list li {
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #333;
+	text-align:left;
+	
+}
+
+.description button {
+  padding: 10px 20px;
+  background-color: green;
+  color: white;
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.description button:hover {
+  background-color: darkgreen;
+}
