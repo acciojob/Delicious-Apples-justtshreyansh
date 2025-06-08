@@ -182,3 +182,9 @@ body{
 .description button:hover {
   background-color: darkgreen;
 }
+.benefits h3 {
+  color: gray;
+  margin: 3px 0;
+  text-transform: uppercase;
+  font-weight: 600;
+}
